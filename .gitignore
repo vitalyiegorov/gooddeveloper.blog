@@ -1,0 +1,112 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# compiled output
+build
+dist
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report
+junit.xml
+
+# OS
+.DS_Store
+
+# Tests
+coverage
+.nyc_output
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Xcode
+#
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+.gradle
+local.properties
+*.iml
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+Pods
+
+# Env
+.env*
+!.env.dist
+
+# React
+react-app-env.d.ts
+
+# Amplify
+**/amplify/\#current-cloud-backend
+**/amplify/.config/local-*
+**/amplify/mock-data
+**/amplify/backend/amplify-meta.json
+**/amplify/backend/awscloudformation
+**/aws-exports.js
+**/awsconfiguration.json
+**/amplifyconfiguration.json
+**/amplify-build-config.json
+**/amplify-gradle-config.json
+**/amplifytools.xcconfig
+
+# React-static
+tmp
